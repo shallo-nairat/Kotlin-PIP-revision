@@ -71,6 +71,23 @@ printWord("I am from Moringa")
     factsAboutMe("I love food")
     myText("   she  is young  and joy ")
     bestSchool("Bahari Girls","Kilifi")
+
+    //Arrays
+//create an array of students and get the third index
+     var students= arrayOf("Nairat","Shee","Caren","Tracy","Hawa")
+    println(students[3])
+
+    //replace the fourth name with "Faith" in the above array
+    students[4]="Faith"
+    println(students.contentToString())
+
+    //find the size of the array
+    println(students.count())
+
+    // add an element to the above array
+    students=students.plus("Christine" )
+    println(students.contentToString())
+
 }
 
 //write a function that takes in a String and return its length
@@ -139,4 +156,6 @@ fun bestSchool(school:String, place:String){
     println(sentence)
 }
 
+//Arrays
+//create an array of students and get the third index
 
