@@ -64,6 +64,13 @@ fun main() {
     name("Mary-Vivian is a girl from Kiambu and she is 23 years old")
 
 printWord("I am from Moringa")
+  //  myName("Nairat")
+   // age(23)
+    mySchool("akirachix")
+
+    factsAboutMe("I love food")
+    myText("   she  is young  and joy ")
+    bestSchool("Bahari Girls","Kilifi")
 }
 
 //write a function that takes in a String and return its length
@@ -95,4 +102,41 @@ fun printWord(word: String) {
     } else {
         println("you are not welcome")
     }
+    println(word.last())
 }
+
+//fun myName(mystring:String){
+    //println(mystring.last())
+    //val sentence ="hello my name is $name"
+    //return sentence
+//
+//}
+//fun age(age:Int):Int{
+//  val a =age
+////    return ++a
+
+fun mySchool(word: String){
+    println(word.split(","))
+}
+
+//create and invoke a function that prints out interesting fact about yourself
+fun factsAboutMe(word: String){
+    println(word)
+}
+
+//create a function that takes in a string and returns a new string with all spaces removed
+ fun myText(text:String):String{
+    val newmyText=(text.trim())
+     println(newmyText)
+    return newmyText
+
+}
+//write a function taking in parameters, school and place and return a string with the sentence 'The best school is x and its located in y
+// where x and y are provided respectively
+
+fun bestSchool(school:String, place:String){
+    val sentence=( "The best school is$school and its located in $place")
+    println(sentence)
+}
+
+
